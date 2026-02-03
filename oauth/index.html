@@ -166,14 +166,25 @@
             <div class="status success">
                 ✅ Authorization successful!
             </div>
+            <p style="color: #333; margin: 16px 0; font-size: 15px;">
+                <strong>Almost done!</strong> Copy the code below and paste it back to Moltbot in Telegram.
+            </p>
             <div class="code-box">
-                <span class="code-label">Authorization Code</span>
+                <span class="code-label">Your Authorization Code</span>
                 <code id="auth-code"></code>
             </div>
-            <button class="copy-btn" onclick="copyCode()">📋 Copy Code</button>
+            <button class="copy-btn" onclick="copyCode()">📋 Copy Code to Clipboard</button>
+            <div style="margin-top: 24px; padding: 16px; background: #f0f4ff; border-radius: 8px;">
+                <p style="color: #333; font-size: 14px; margin: 0;">
+                    <strong>📱 Next Step:</strong><br>
+                    1. Open Telegram<br>
+                    2. Go back to your chat with <strong>@m5moltbot</strong><br>
+                    3. Paste the code you just copied<br>
+                    4. The bot will confirm your connection!
+                </p>
+            </div>
             <p class="info">
-                You can now close this window. If you're testing the app manually, 
-                copy the code above and exchange it for an access token.
+                <a href="https://t.me/m5moltbot">← Return to Moltbot on Telegram</a>
             </p>
         </div>
         
